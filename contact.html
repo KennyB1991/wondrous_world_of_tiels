@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Wondrous world of Tiels - Contact</title>
+  </head>
+  <body>
+    <!-- Start of header -->
+    <header class="top-nav">
+      <h1>The Wondrous world of Tiels</h1>
+      <img id="logo" src="images/wwot-logo.png" />
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <nav class="menu">
+        <ul class="menu">
+          <li><a href="index.html" title="Birb home">Home</a></li>
+          <li><a href="blog.html" title="Birb blog">Blog</a></li>
+          <li><a href="contact.html" title="Birb mail">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End of header -->
+    <!-- Start of main -->
+    <main>
+      <img
+        id="banner"
+        src="images/wwot-banner-contact.jpg"
+        alt="welcome-wwot-banner"
+        title="welcome-banner"
+      />
+      <article>
+        <h2>Tell us about your birbs!</h2>
+        <section>
+          <p>
+            Do you think we're missing anything special? Or perhaps your tiels
+            are looking for their way to fame? Use this handy form below to let
+            us know your thoughts, share a video or upload a funny picture of
+            your birbs. Whatever it is, every comment is welcome!
+          </p>
+        </section>
+        <section>
+          <h3>Contact</h3>
+          <form name="contact" method="POST" data-netlify="true">
+            <label>Birb name: <input type="text" name="Birb name" /></label>
+            <label>
+              Birb gender:<br />Male
+              <input class="radiobtn" type="radio" name="gender" value="Male" />
+              Female
+              <input
+                class="radiobtn"
+                type="radio"
+                name="gender"
+                value="Female"
+              />
+            </label>
+            <label>Birb age: <input type="number" name=" Birb age" /></label>
+            <label>
+              Birb picture:
+              <input type="file" name="Birb picture" />
+            </label>
+            <label>Your name: <input type="text" name="Your name" /></label>
+            <label>
+              Your birthday: <input type="date" name="Your birthday" />
+            </label>
+            <label>E-mail: <input type="email" name="Your email" /></label>
+            <label>
+              Phone nr.: <input type="number" name="Your phone nr." />
+            </label>
+            <label>
+              Youtube video: <input type="url" name="Birb video" />
+            </label>
+            <label>Comment: <textarea name="message"></textarea></label>
+            <input class="button" type="reset" value="Reset" />
+            <input class="button" type="submit" value="Submit" />
+          </form>
+        </section>
+      </article>
+    </main>
+    <!-- End of main -->
+    <!-- Start of footer -->
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img
+              src="images/facebook-logo.png"
+              alt="facebook-logo"
+              title="follow us on facebook!"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img
+              src="images/insta-logo.png"
+              alt="instagram-logo"
+              title="follow us on instagram!"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/" target="_blank"
+            ><img
+              src="images/twitter-logo.png"
+              alt="twitter-logo"
+              title="follow us on twitter!"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- End of footer -->
+  </body>
+</html>
